@@ -7,7 +7,7 @@ const express = require("express"),
 
 mongoose.connect("mongodb://localhost/restful_blog_app", {
     useUnifiedTopology: true,
-    useNewUrlParser: true,
+    useNewUrlParser: true
 });
 app.set("view engine", "ejs");
 app.use(express.static("public"));
